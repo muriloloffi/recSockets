@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="container">
+        <h1 class="text-center">Web Chat</h1>
+
+        <section class="main-content">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div id="status"></div>
+
+                    <section id="message-section"></section>
+
+                    <form id="formMessage">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="form-group">
+                                    <input type="text" id="actualUser" name="actualUser" class="form-control" placeholder="Usuário">
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="form-group">
+                                    <input type="text" id="actualMessage" name="actualMessage" class="form-control" placeholder="Mensagem">
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <button type="submit" class="btn btn-default btn-block">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+        <script src="assets/js/chat.js"></script>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,24 @@
+:root {
+	--blue: #4286f4;
+	--green: #42f4a1;
+	--light: #fff;
+}
+
+body { 
+	background-color: var(--blue); 
+	padding: 50px 0;
+}
+
+.main-content {
+	margin-top: 50px;
+}
+
+#message-section {
+	background-color: var(--light);
+	border: 1px solid #ededed;
+	border-radius: 4px;
+	height: 300px;
+	margin-bottom: 20px;
+	padding: 15px;
+	overflow: auto;
+}
